@@ -10,5 +10,14 @@
   "license": "ISC",
   "dependencies": {
     "inquirer": "8.2.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BradDWagner/readme-generator.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/BradDWagner/readme-generator/issues"
+  },
+  "homepage": "https://github.com/BradDWagner/readme-generator#readme"
 }

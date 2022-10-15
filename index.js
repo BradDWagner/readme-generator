@@ -1,5 +1,5 @@
 // TODO: Include packages needed for this application
-const markdown = require('./generateMarkdown.js');
+// const markdown = require('./generateMarkdown');
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown.js');
@@ -42,7 +42,7 @@ const questions = [
     {
         type: 'input',
         message: 'What command should be run to run tests?',
-        name: 'tests',
+        name: 'test',
         default: 'npm test'
     },
     {
@@ -58,14 +58,17 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (error) =>
+    error ? console.error(error) : console.log('Your README has been created in the yourNewREADME folder!'))
+}
 
 // TODO: Create a function to initialize app
 function init() {
     inquirer
-        .createPromptModule(questions)
-        .then (generateMarkdown(response))
-        .then (writeToFile('README.md', response))
+        .prompt(questions)
+        .then ((response) => generateMarkdown(response))
+        .then ((response) => writeToFile('yourNewREADME/README.md', response))
 }
 
 // Function call to initialize app
