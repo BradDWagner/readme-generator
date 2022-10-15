@@ -30,7 +30,7 @@ const questions = [
         type: 'list',
         message: 'What kind of license should your project have?',
         name: 'license',
-        choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None'],
+        choices: ['MIT', 'APACHE 2.0', 'GPL v3', 'BSD 3', 'None'],
         default: 'MIT'
     },
     {
@@ -65,6 +65,7 @@ function init() {
     inquirer
         .createPromptModule(questions)
         .then (generateMarkdown(response))
+        .then (writeToFile('README.md', response))
 }
 
 // Function call to initialize app
