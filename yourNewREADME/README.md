@@ -1,8 +1,8 @@
-# a
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# readme-generator
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  d
+  This project untilizes the npm inquirer module to allow the user to generate a README utilizing prompts in the command line
 
   ## Table of Contents
 
@@ -26,15 +26,15 @@
 
   ## Usage
 
-  y
+  After cloning the repository and installing dependencies, navigate to the repository in the command line and initiate the application using: ```node index.js```. The user will be given several prompts including the ablility to select a license. Once all prompts have been completed the application will generate the README.md which can be found in the 'yourNewREADME' directory.
 
   ## License
 
-  This project is licensed under the APACHE 2.0 license.
+  This project is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
 
   ## Contributing
 
-  n
+  
 
   ## Tests
 
@@ -46,5 +46,5 @@
 
   ## Questions
 
-  if you have any questions about the repo, open and issue or contact me directly at r. You can find more of my work at [b](https://github.com/b).
+  if you have any questions about the repo, open and issue or contact me directly at braddwagner@outlook.com. You can find more of my work on my [GitHub](https://github.com/braddwagner).
 
