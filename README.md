@@ -31,7 +31,8 @@
   node index.js
   ```
    The user will be given several prompts including the ablility to select a license. Once all prompts have been completed the application will generate the README.md which can be found in the 'yourNewREADME' directory.
-   ![Example showing this README being created using the application]()
+   
+   ![Example showing this README being created using the application](./assets/commandline-demo.png)
 
   ## License
 
