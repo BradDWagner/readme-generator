@@ -1,8 +1,8 @@
-# readme-generator
+# readme-generator-example
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  This project untilizes the npm inquirer module to allow the user to generate a README utilizing prompts in the command line
+    This project untilizes the npm inquirer module to allow the user to generate a README utilizing prompts in the command line
 
   ## Table of Contents
 
@@ -26,7 +26,7 @@
 
   ## Usage
 
-  After cloning the repository and installing dependencies, navigate to the repository in the command line and initiate the application using: ```node index.js```. The user will be given several prompts including the ablility to select a license. Once all prompts have been completed the application will generate the README.md which can be found in the 'yourNewREADME' directory.
+  After cloning the repository and installing dependencies, navigate to the repository in the command line and initiate the application using ```node index.js``` The user will be given several prompts including the ability to select a license. Once all prompts have been completed the application will generate the README.md which can be found in the 'yourNewREADME' directory.
 
   ## License
 
@@ -46,5 +46,5 @@
 
   ## Questions
 
-  if you have any questions about the repo, open and issue or contact me directly at braddwagner@outlook.com. You can find more of my work on my [GitHub](https://github.com/braddwagner).
+  If you have any questions about the repo, open and issue or contact me directly at example@email.com. You can find more of my work on my [GitHub](https://github.com/braddwagner).
 
