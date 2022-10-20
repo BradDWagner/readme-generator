@@ -2,7 +2,7 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-    This project untilizes the npm inquirer module to allow the user to generate a README utilizing prompts in the command line
+  This project utilizes the npm inquirer module to allow the user to generate a README utilizing prompts in the command line.
 
   ## Table of Contents
 
@@ -21,7 +21,7 @@
   To install the necessary dependencies, run the following command:
 
   ```
-  nmp i
+  npm i
   ```
 
   ## Usage
@@ -34,7 +34,7 @@
 
   ## Contributing
 
-  
+  No guidelines at this time.
 
   ## Tests
 

@@ -36,7 +36,7 @@ const questions = [
         type: 'input',
         message: 'What command should be run to install dependencies?',
         name: 'install',
-        default: 'nmp i'
+        default: 'npm i'
     },
     {
         type: 'input',
